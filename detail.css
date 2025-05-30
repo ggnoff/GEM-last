@@ -193,6 +193,14 @@
     .footer-logo {
       margin-bottom: 10px;
     }
+      .project-content {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 40px;
+      width: 100%;
+      margin-top: 10px;
+    }
   }
   
 
