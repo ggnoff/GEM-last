@@ -193,14 +193,20 @@
     .footer-logo {
       margin-bottom: 10px;
     }
-      .project-content {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 40px;
-      width: 100%;
-      margin-top: 10px;
+     .project-content {
+      flex-direction: column; /* stack items vertically */
+      gap: 20px;              /* smaller gap on mobile */
+      align-items: center; 
+      margin-top: 10px;   /* center items */
     }
+    .project-layout {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 10px;
+      font-family: Arial, sans-serif;
+      position: relative;
+    }
+      
   }
   
 
